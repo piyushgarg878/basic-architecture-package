@@ -1,6 +1,5 @@
 {
-  "name": "draw-app",
-  "private": true,
+  "name": "basic-architecture",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -15,5 +14,25 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
+  },
+  "version": "1.0.0",
+  "description": "basic architecture for a turborepo project,one backend,one websocket,one next app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushgarg878/basic-architecture-package.git"
+  },
+  "keywords": [
+    "turbo"
+  ],
+  "author": "piyush garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushgarg878/basic-architecture-package/issues"
+  },
+  "homepage": "https://github.com/piyushgarg878/basic-architecture-package#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0"
   }
 }
