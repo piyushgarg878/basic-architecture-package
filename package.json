@@ -6,6 +6,9 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "bin": {
+    "basic-architecture": "./cli.js"
+  },
   "devDependencies": {
     "prettier": "^3.4.2",
     "turbo": "^2.4.0",
